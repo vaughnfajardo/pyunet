@@ -14,6 +14,7 @@ from lib.unet_attn_inverted_residual_block import UNetAttnInvertedResidualBlock
 from lib.unet_attn_stacked_ghost_irb import UNetAttnStackedGhostIrb
 from lib.depth.unet_depth import UNetDepth
 from lib.depth.unet_attn_depth import UNetAttnDepth
+from lib.ucrazynet import UCrazyNet
 from lib.depth.unet_attn_dp_depth import UNetAttnDpDepth
 
 def rgb2mask(colors, image):
@@ -73,6 +74,11 @@ def initialize_model(in_channels, out_channels, model_type, device):
             in_channels=in_channels,
             out_channels=out_channels
         )
+    elif model_type == 'ucrazynet':
+        model = UCrazyNet(
+            in_channels=in_channels,
+            out_channels=out_channels
+        )        
     elif model_type == 'unet_attn_stacked_ghost_irb':
         model = UNetAttnStackedGhostIrb(
             in_channels=in_channels,

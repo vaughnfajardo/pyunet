@@ -1,11 +1,13 @@
+import matplotlib
+matplotlib.use('TkAgg')
+
 import sys
 import os
 import torch
 import cv2
 import numpy as np
 import random
-import matplotlib
-matplotlib.use('Agg')
+
 import matplotlib.pyplot as plt
 from utils import load_model_for_inference
 
@@ -125,4 +127,4 @@ class SamplePair:
         # Adjust the spacing between subplots
         plt.subplots_adjust(wspace=0.2)
 
-        plt.show()
+        plt.savefig(f"{model_type}-output.png")

@@ -64,3 +64,6 @@ _minted-main/
 PyUNET.egg-info/
 
 train.sh
+
+train/
+test/
