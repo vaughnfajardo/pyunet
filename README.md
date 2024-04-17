@@ -22,16 +22,19 @@ Depthwise Separable Convolution
 </p>
 
 ### UCrazyNet-CE-0.1
+<p align="center">
   <img src="images/4-ce-0.1.png"/>
   <img src="images/ce-0.1.png"/>
 </p>
 
 ### UCrazyNet-FL-0.0001
+<p align="center">
   <img src="images/1-fl-0.0001.png"/>
   <img src="images/fl-0.0001.png"/>
 </p>
 
 ### UCrazyNet-FL-0.1
+<p align="center">
   <img src="images/2-fl-0.1.png"/>
   <img src="images/fl-0.1.png"/>
 </p>
