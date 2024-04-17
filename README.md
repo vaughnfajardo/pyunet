@@ -1,3 +1,25 @@
+# UCrazyNet
+
+## UCrazyNet-CE-0.0001
+
+<p align="center">
+  <img src="images/ce-0.0001.png"/>
+</p>
+
+## UCrazyNet-CE-0.1
+  <img src="images/ce-0.1.png"/>
+</p>
+
+## UCrazyNet-FL-0.0001
+  <img src="images/fl-0.0001.png"/>
+</p>
+
+## UCrazyNet-FL-0.1
+  <img src="images/fl-0.1.png"/>
+</p>
+
+
+
 # PyUNET
 
 Python based tool for UNet and Variants
