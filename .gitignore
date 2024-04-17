@@ -44,6 +44,8 @@ notebooks/**/*.[png|jpg|tiff]
 # Ignore env
 env/
 
+runs/
+
 tmp/
 notebooks/tmp/
 
