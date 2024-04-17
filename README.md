@@ -17,7 +17,7 @@ Depthwise Separable Convolution
 ### UCrazyNet-CE-0.0001
 
 <p align="center">
-  <img src="images/3-ce-0.0001.png"/>
+  <img src="images/3-ce-0.0001.png" width="150/>
   <img src="images/ce-0.0001.png"/>
 </p>
 
