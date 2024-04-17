@@ -1,24 +1,40 @@
 # UCrazyNet
 
-## UCrazyNet-CE-0.0001
+Encoder
+Ghost Convolution
+Depthwise Separable Convolution
+
+Max Pooling
+Atrous Convolution
+
+Decoder
+UpConv
+Attention Black (UpConv, Atrous Convolution)
+Depthwise Separable Convolution
+
+## Visualizations for UCrazyNet vs UNet-based models
+
+### UCrazyNet-CE-0.0001
 
 <p align="center">
+  <img src="images/3-ce-0.0001.png"/>
   <img src="images/ce-0.0001.png"/>
 </p>
 
-## UCrazyNet-CE-0.1
+### UCrazyNet-CE-0.1
+  <img src="images/4-ce-0.1.png"/>
   <img src="images/ce-0.1.png"/>
 </p>
 
-## UCrazyNet-FL-0.0001
+### UCrazyNet-FL-0.0001
+  <img src="images/1-fl-0.0001.png"/>
   <img src="images/fl-0.0001.png"/>
 </p>
 
-## UCrazyNet-FL-0.1
+### UCrazyNet-FL-0.1
+  <img src="images/2-fl-0.1.png"/>
   <img src="images/fl-0.1.png"/>
 </p>
-
-
 
 # PyUNET
 
